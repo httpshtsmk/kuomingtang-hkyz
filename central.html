@@ -13,7 +13,7 @@
             padding: 0;
             background: #f5f5f5;
             color: #333;
-            line-height: 1.8;
+            line-height: 1.9;
         }
         
         .header {
@@ -24,7 +24,7 @@
         }
         
         .flag { width: 160px; margin-bottom: 15px; }
-        .title { font-size: 2.1rem; margin: 10px 0 5px; }
+        .title { font-size: 2.2rem; margin: 10px 0 5px; }
         
         nav {
             background: #002266;
@@ -52,21 +52,10 @@
             color: #003087;
             border-left: 6px solid #C9A227;
             padding-left: 18px;
-            margin: 35px 0 20px;
+            margin: 40px 0 20px;
         }
         
-        .pdf-container {
-            margin: 25px 0;
-            border: 2px solid #ddd;
-            border-radius: 8px;
-            overflow: hidden;
-        }
-        
-        iframe {
-            width: 100%;
-            height: 750px;   /* 可调整高度 */
-            border: none;
-        }
+        h3 { color: #002266; margin-top: 30px; }
         
         footer {
             text-align: center;
@@ -74,6 +63,16 @@
             background: #002266;
             color: #ddd;
             font-size: 0.95rem;
+        }
+        
+        .pdf-link {
+            display: inline-block;
+            margin: 20px 0;
+            padding: 10px 20px;
+            background: #003087;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
         }
     </style>
 </head>
@@ -93,20 +92,60 @@
     </nav>
 
     <div class="main">
-        <h2>中国国民党详细资料</h2>
-        <p style="color:#555;">以下为维基百科《中国国民党》条目完整内容（PDF格式）</p>
-        
-        <div class="pdf-container">
-            <iframe src="kmt-wiki.pdf" title="中国国民党维基百科"></iframe>
-        </div>
+        <h2>中国国民党简介</h2>
+        <p>中国国民党（简称国民党，KMT）是中华民国主要政党之一，目前为最大在野党。其前身为1894年孙中山在檀香山成立的兴中会，1919年正式改组为中国国民党。</p>
+        <p>现任党主席为<strong>郑丽文</strong>，中央党部位于台北市中山区八德大楼。</p>
 
-        <p style="text-align:center;margin-top:15px;">
-            <a href="kmt-wiki.pdf" download style="color:#003087;">⬇️ 下载完整 PDF</a>
-        </p>
-
-        <h2>总部基本信息</h2>
+        <h2>总部信息</h2>
         <p><strong>地址：</strong>中华民国台北市中山区八德路二段232、234号（八德大楼）</p>
-        <p><strong>现任主席：</strong>郑丽文</p>
+        <p><strong>官方网站：</strong> <a href="https://www.kmt.org.tw" target="_blank">www.kmt.org.tw</a></p>
+        
+        <h2>党纪誓词</h2>
+        <ul>
+            <li>凡中华民国国民年满十六岁以上，信仰三民主义，经地方党部检验合格且愿遵行党章及党员守则者，得依规定申请入党。而其宣誓词内容如下∶</li>
+            <li>“余誓以至诚，加入中国国民党为党员，信仰三民主义。遵行本党党章及党员守则</li>
+            <li>为建设中国为人本、安全、优质的社会，实现中华民国为自由、民主、均富和统一的国家而奋斗</li>
+            <li>实现中华民国为自由、民主、均富和统一的国家而奋斗。绝不参加或支持其他政党，如有违背，愿受党纪处分，谨誓。”</li>
+        </ul>
+
+        <h2>重要历史</h2>
+        <ul>
+            <li>1911年参与辛亥革命，促成中华民国建立</li>
+            <li>1924年召开一大，实行联俄容共</li>
+            <li>1928年北伐成功，名义上统一中国</li>
+            <li>1937-1945年领导全民族抗战</li>
+            <li>1949年随中华民国政府迁台</li>
+            <li>2008-2016年重新执政</li>
+        </ul>
+        
+        <h2>政治立场<h2>
+        <ul>
+            <li>反共主义、捍卫宪政民主价值（党章第2条）</li>
+            <li>2019年 依据《中华民国宪法》，两岸同属一个中国，叫做中华民国，反对台独和两国论</li>
+            <li>2019年 反对民进党所定义两岸为特殊的国与国关系，反对以台湾为主体、意图取代中华民国</li>
+            <li>2016年 反对去中国化及文化台独</li>
+            <li>2020年 捍卫中华民国、反对台独</li>
+            <li>兴中会时期：“驱逐鞑虏，恢复中华，创立合众政府”</li>
+            <li>中国同盟会时期：“恢复中华，创立民国，平均地权”。</li>
+            <li>国民党时期：“政治统一、地方自治、种族团结、民生政策、国际和平”。</li>
+            <li>中华革命党时期：“实行民权、民生两主义，扫除专制政治，建设完全民国”。</li>
+            <li>中国国民党时期：“结合全国民众，达成实行三民主义建设新中国之历史使命”。</li>
+            <li>中国国民党第一次全国代表大会宣布，国民党的主义即三民主义（民族、民权、民生）。</li>
+            </li>中国国民党第七次全国代表大会通过“反共抗俄基本论”。</li>
+            </li>中国国民党第十二次全国代表大会通过“贯彻以三民主义统一中国案”。</li>
+        </ul>
+
+        <h2>现任主要领导（2026年）</h2>
+        <p><strong>主席：</strong>郑丽文</p>
+        <p><strong>副主席：</strong>李乾龙、季麟连、萧旭岑、张荣恭</p>
+
+        <h2>更多详细内容</h2>
+        <p>完整维基百科资料请下载原始 PDF：</p>
+        <a href="kmt-wiki.pdf" class="pdf-link" download>📥 下载《中国国民党》完整 PDF</a>
+
+        <p style="margin-top:30px;color:#666;font-size:0.95rem;">
+            以上内容节选自维基百科《中国国民党》条目，仅供党部内部学习参考。
+        </p>
     </div>
 
     <footer>
